@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Transition</title>
+    <style>
+      body {
+        display: flex;
+        height: 100vh;
+        align-items: center;
+        justify-content: center;
+      }
+      @keyframes superani {
+        0% {
+          transform: rotateX(0);
+        }
+        50% {
+          transform: rotateX(180deg) translateX(100px);
+          border-radius: 0px;
+          border-color: tomato;
+        }
+        100% {
+          transform: rotateX(0);
+          border-radius: 25px;
+        }
+      }
+      img {
+        border: 5px solid black;
+        border-radius: 50%;
+        animation: superani 5s ease-in-out infinite;
+      }
+    </style>
+  </head>
+  <body>
+    <img src="logo.png" />
+  </body>
+</html>
