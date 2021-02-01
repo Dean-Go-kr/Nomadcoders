@@ -1,3 +1,3 @@
-# kakao-clone
+# Nomadcoders
 
-Kakao Desktop App Clone
+Codes for classes of nomadcoders
