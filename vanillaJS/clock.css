@@ -4,7 +4,9 @@ body {
 
 .form,
 .greetings {
-  display: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .showing {
